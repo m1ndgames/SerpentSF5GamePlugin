@@ -26,15 +26,16 @@ class SerpentSF5Game(Game, metaclass=Singleton):
     @property
     def screen_regions(self):
         regions = {
-            "main_menu_training_button": (282, 101, 319, 258),
-            "fight": (113, 0, 390, 640),
-            "time": (100, 299, 71, 341),
-            "p1_health": (77, 297, 93, 51),
-            "p1_trigger": (405, 129, 399, 57),
-            "p1_ca": (409, 71, 418, 185),
-            "p2_health": (77, 341, 93, 590),
-            "p2_trigger": (399, 582, 405, 512),
-            "p2_ca": (409, 567, 418, 456)
+            "MENU_BUTTON_START": (283, 252, 297, 388),
+            "MENU_BUTTON_TRAINING": (282, 101, 319, 258),
+            "FIGHTZONE": (113, 1, 390, 639),
+            "TIMER": (100, 299, 71, 341),
+            "P1_HEALTH": (77, 297, 93, 51),
+            "P1_TRIGGER": (405, 129, 399, 57),
+            "P1_CA": (409, 71, 418, 185),
+            "P2_HEALTH": (77, 341, 93, 590),
+            "P2_TRIGGER": (399, 582, 405, 512),
+            "P2_CA": (409, 567, 418, 456)
         }
 
         return regions
