@@ -39,7 +39,7 @@ class SerpentSF5Game(Game, metaclass=Singleton):
             "P1_CA": (715, 369, 697, 143),
             "P2_CA": (715, 910, 698, 1136),
             "P1_DIZZY": (79, 446, 68, 594),
-            "P2_DIZZY": (67, 833, 80, 685),
+            "P2_DIZZY": (67, 833, 80, 685)
         }
 
         return regions
